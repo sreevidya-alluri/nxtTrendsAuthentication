@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.website-logo {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+  padding: 20px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  margin: 12px;
+  border-radius: 9px;
+  padding: 14px;
+  cursor: pointer;
+}
+.links {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px;
+}
